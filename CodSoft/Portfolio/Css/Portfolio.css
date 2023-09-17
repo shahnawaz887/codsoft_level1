@@ -1,0 +1,665 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header One CSS */
+
+.header1 {
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(40, 79, 102);
+
+}
+
+.nav1 i:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.nav1 i {
+    padding: 4px 10px;
+    margin: 10px;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: right;
+}
+
+.phone {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    float: right;
+
+}
+
+.phone i {
+    padding: 5px;
+    margin: 5px 0px;
+    margin-left: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.phone p {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+/* Background CSS */
+
+.background img {
+
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1.0;
+
+}
+
+/* Background Image Above Test CSS */
+
+.myname {
+    margin: 100px;
+    height: 300px;
+    width: 540px;
+    margin-top: -350px;
+    margin-left: 400px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.myname h1 {
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.myname h4 {
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.myname button {
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 25px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.myname button a {
+    color: white;
+    text-decoration: none;
+}
+
+.myname button:hover {
+    cursor: pointer;
+    background-color: #103769;
+}
+
+
+/* Header Two CSS */
+
+.nav2 {
+    background-color: rgb(40, 79, 102);
+    width: 104.2%;
+    height: 47px;
+    margin: -57px;
+}
+
+.nav2 ul {
+    text-decoration: none;
+    display: inline-flex;
+    list-style: none;
+    margin-left: 12%;
+}
+
+.nav2 ul li {
+
+    margin: 15px;
+    padding: 0px 50px 0px 0px;
+
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav2 ul li a:hover {
+    color: black;
+}
+
+.nav2 ul li a i {
+    padding-left: 5px;
+}
+
+
+/* About Me */
+
+.about-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-items: left; */
+}
+
+.about {
+    width: 50%;
+    height: 400px;
+    margin: 0px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 65px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+.about h2 {
+    margin-top: 20px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin: 0px 65px;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+
+.about li {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.about-img {
+    margin: auto;
+    margin-right: 140px;
+}
+
+.about-img img {
+    border-radius: 60px;
+    width: 350px;
+    height: 300px;
+}
+
+/* Skills That Offers */
+
+.skills {
+    width: 100%;
+    height: 480px;
+    background-color: rgb(40, 79, 102);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.skills h1 {
+    margin-top: 70px;
+    font-size: 75px;
+}
+
+.skills p {
+    margin: 5px;
+}
+
+.skills-descrpition {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.skill-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-images img {
+    margin: 5px;
+    margin-top: 30px;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+}
+
+/* Proficiencey Section CSS */
+
+.container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: row;
+
+}
+
+.container img {
+    height: 350px;
+    width: 400px;
+    margin-top: 155px;
+    margin-left: 190px;
+    border-radius: 30px;
+}
+
+.Proficiency {
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.Proficiency h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Proficiency h1 {
+    font-weight: 500px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.progress-bar {
+    background-color: rgb(110, 95, 95);
+    width: 500px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.progress-bar div {
+    height: 15px;
+    border-radius: 10px;
+    width: 0%;
+    background-color: rgb(40, 79, 102);
+}
+
+.progress-bar div span {
+    height: 40px;
+    font-weight: bold;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(15, 15, 15);
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    animation: html 1s linear forwards;
+}
+
+.css {
+    animation: CSS 1s linear forwards;
+}
+
+.JavaScript {
+    animation: JavaScript 1s linear forwards;
+}
+
+.adobephotoshop {
+    animation: adobephotoshop 1s linear forwards;
+}
+
+.adobeillustrator {
+    animation: adobeillustrator 1s linear forwards;
+}
+
+@keyframes html {
+    100% {
+        width: 85%;
+    }
+
+}
+
+@keyframes CSS {
+    100% {
+        width: 70%;
+    }
+
+}
+
+@keyframes JavaScript {
+    100% {
+        width: 60%;
+    }
+
+}
+
+@keyframes adobephotoshop {
+    100% {
+        width: 75%;
+    }
+
+}
+
+@keyframes adobeillustrator {
+    100% {
+        width: 80%;
+    }
+
+}
+
+/* Courses Section in CSS */
+
+.course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #295066;
+ 
+
+}
+
+.course .box {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, .1);
+    border-radius: 15px;
+    margin: 43px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.course .box:before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rbga(255, 255, 255, .2);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.course .box img {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+
+.course .box:nth-child(1) img {
+    box-shadow: 0 0 0 0 #2e3235;
+    background: #2e3235;
+
+}
+
+.course .box:nth-child(1):hover img {
+    box-shadow: 0 0 0 400px #2e3235;
+    background: #2e3235;
+
+}
+
+.course .box:nth-child(2) img {
+    box-shadow: 0 0 0 0 #2e3235;
+    background: #2e3235;
+
+}
+
+.course .box:nth-child(2):hover img {
+    box-shadow: 0 0 0 400px #2e3235;
+    background: #2e3235;
+
+}
+
+.course .box:nth-child(3) img {
+    box-shadow: 0 0 0 0 #2e3235;
+    background: #2e3235;
+
+}
+
+.course .box:nth-child(3):hover img {
+    box-shadow: 0 0 0 400px #2e3235;
+    background: #2e3235;
+
+}
+
+.course .box:nth-child(4) img {
+    box-shadow: 0 0 0 0 #2e3235;
+    background: #2e3235;
+
+}
+
+.course .box:nth-child(4):hover img {
+    box-shadow: 0 0 0 400px #2e3235;
+    background: #2e3235;
+
+}
+
+.course .box .content {
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+
+}
+
+.course .box:hover .content {
+    color: white;
+
+}
+
+.course .box .content h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.course .box .content p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.course .box .content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+/* Contact Me Section in CSS */
+
+
+.Contact-Me {
+    height: 600px;
+    width: 100%;
+
+}
+
+.contact-form {
+    background: rgb(240, 237, 237);
+    width: 50%;
+    max-width: 500px;
+    top: 50%;
+    margin: 90px auto;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.contact-form h1 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-Written {
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 12px 18px;
+    border-radius: 10px;
+
+}
+
+.text-Written label {
+    display: block;
+    text-align: left;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.text-Written input,
+.text-Written textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.contact-form a {
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(8, 8, 8);
+    margin-top: 10px;
+    margin: 0px 0px;
+    padding: 5px 150px;
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #295066;
+    color: white;
+
+}
+
+/* Footer Section in CSS */
+
+/* .footer{
+    height: 300px;
+    width: 100%;
+    background-color: #295066 ;
+} */
+
+.footer-basic {
+    height: 100px;
+    width: 100%;
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #295066;
+}
+
+.list-inline {
+    text-decoration: none;
+    display: inline-flex;
+    list-style: none;
+    margin-left: 33%;
+}
+
+.list-inline li {
+    margin: 15px;
+    padding: 0px 20px 0px 0px;
+
+}
+
+.list-inline li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer-basic ul a:hover {
+    color: #000000;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    color: black;
+    border-color: black;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}

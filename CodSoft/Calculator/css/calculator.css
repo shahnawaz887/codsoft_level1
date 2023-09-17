@@ -1,0 +1,82 @@
+*{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.bod{
+    background-size: cover;
+    background-color: black;
+}
+.cal-hea{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.cal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.cal input{
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 10px;
+    font-size: 21px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.m-w-30{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    max-width: 30vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.column input{
+    margin-top: 10px ;
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    margin: 5px;
+}
+.Operator{
+    background-color: rgb(219, 161, 14);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+button{
+    height: 30px;
+    width: 30px;
+    padding: 30px;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 1px;
+    cursor: pointer;
+}
+.cal-btn{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: black;
+    background-color: white;
+}

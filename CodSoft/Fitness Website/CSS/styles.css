@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 70px;
+    width: 100%;
+    background-image: url(../Images/g1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.nav1{
+    margin-left: 100px;
+}
+.nav1 .icon{
+    border-right: 1px solid;
+    color: white;
+    padding: 10px;   
+}
+.nav1 a i{
+    margin-top: 10px;
+    border-left: 1px solid;
+    padding: 10px;
+    color: white;
+}
+.nav1 a :hover{
+    color: yellow;
+    cursor: pointer;
+}
+.homepage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 100%;
+    height: 661px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 650px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+    height: 650px;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+
+}
+
+.manual-btn:hover {
+    background: rgb(177, 160, 10);
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 610px;
+    justify-content: center;
+}
+
+.navigation-auto div {
+    border: 2px solid rgb(248, 248, 252);
+    padding: 6px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div :not(:last-child) {
+    margin-right: 40px;
+
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background: rgb(211, 207, 3);
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background: rgb(211, 207, 3);
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background: rgb(211, 207, 3);
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background: rgb(211, 207, 3);
+}
+
+.nav {
+    height: 50px;
+    margin-top: -645px;
+    display: flex;
+ 
+}
+
+.nav ul {
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+    display: inline-flex;
+    list-style: none;
+    background-color: rgb(8, 8, 8, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: -135px;
+    margin-left: 30px;
+}
+
+.logo img {
+    height: 230px;
+    width: 230px;
+}
+
+.nav ul li {
+    margin-left: 40px;
+
+}
+
+.nav ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+
+.heading {
+    width: 500px;
+    height: 650px;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    margin-left: 430px;
+    margin-bottom: 30px;
+}
+
+.heading img {
+    height: 300px;
+    width: 350px;
+    margin: -90px;
+}
+
+.heading a {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+}
+
+.heading input {
+    height: 40px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.heading a i {
+
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+
+.heading h1 {
+    font-size: 40px;
+}
+
+.btn-login {
+    margin-top: -665px;
+    margin-left: 950px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-login button {
+    height: 50px;
+    width: 110px;
+    margin-left: 10px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.btn-login a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 {
+    margin-top: 470px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    background: url(../Images/g1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bar {
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    height: 170px;
+    width: 350px;
+    margin-top: 45px;
+    background-color: rgb(8, 8, 8, 0.6);
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.bar a {
+    color: rgb(235, 232, 232);
+    font-size: 40px;
+}
+
+.bar a i {
+    margin-top: 10px;
+}
+
+.bar h1 {
+    color: rgb(185, 185, 18);
+}
+
+.bar p {
+    color: white;
+    justify-content: center;
+    align-content: center;
+
+}
+.about-sec{
+    justify-content: center;
+    margin-top: 40px;
+}
+.about-img{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+.about-img img{
+    width: 450px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 85px;
+}
+.About{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.About h1{
+    font-size: 5vw;
+}
+.About span{
+    margin-top: 10px;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.About p{
+    margin: 20px 0px;
+    font-size: 1.2vw;
+    
+}
+.About button{
+    background-image: url(../Images/g1.jpg);
+    background-size:150px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.About button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+.About button a:hover{
+    color: black;
+}
+.Team{
+    background-image: url(../Images/g1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    padding: 30px 0px;
+    color: white;
+
+}
+.Team h1{
+    font-size: 4vw;
+    font-weight: bold; 
+    margin-bottom: 30px;
+}
+.team-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.team-m{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+.team-m img{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.team-m h2{
+    font-size: 2vw;
+    text-align: center;
+
+}
+.team-m h4{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.team-m p{
+    text-align: center;
+    width: 350px;
+}
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form img{
+    width: 100%;
+    height: 500px;
+}
+.form-contact{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-color: rgba(131, 115, 27, 0.527);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.form-contact h1{
+    font-size: 3vw;
+    margin-bottom: 20px;
+}
+.cont-form{
+    display: flex;
+    flex-direction: row;
+}
+.cont-form input{
+    margin: 0px 10px;
+    padding: 15px 100px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.form-contact button{
+    margin-top: 20px;
+    padding: 10px 150px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 22)
+}
+footer{
+    background-color: rgb(51, 49, 44);
+    display: flex;
+    justify-content: center;
+}
+.quick-link h1{
+    color: yellow;
+    margin: 10px;
+}
+.quick-link li{
+    color: yellow;
+    margin: 5px;
+    margin-left: 40px;
+}
+.quick-link a{
+    list-style: auto;
+    list-style-image: white;
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.footer1 h1{
+    color: yellow;
+    margin: 10px;
+}
+.footer1 .icon{
+    color: white;
+}
+.footer1 a{
+    color: white;
+    text-decoration: none;
+}
+.footer1 a i{
+    margin-left: 5px;
+    padding: 5px;
+    color: white;
+}
+.footer1 a :hover{
+    color: yellow;
+    cursor: pointer;
+}
+.logoF{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoF img {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: -80px;
+
+}
+.btn-login2 {
+    position: absolute;
+   margin-top: 55px;
+   margin-left: 30px;
+}
+
+.btn-login2 button {
+    height: 50px;
+    width: 110px;
+    margin-left: 10px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.btn-login2 a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
